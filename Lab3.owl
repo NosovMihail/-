@@ -25,7 +25,7 @@
     <!-- http://webprotege.stanford.edu/R9Xxn2Tl76waZlFGGkGQJyu -->
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9Xxn2Tl76waZlFGGkGQJyu">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="urn:webprotege:ontology:5fc1ef09-3f44-4467-bbc3-990e97760f15#Parent"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCe7i9ntAuGEFCEhBiHNEB2"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBf8JReVfqPUlCGwFMaoUwx"/>
         <rdfs:label>Multiplied_by_3_plus_1</rdfs:label>
@@ -36,10 +36,18 @@
     <!-- http://webprotege.stanford.edu/RCkfR8FlYvlueRdC5fA2D5 -->
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCkfR8FlYvlueRdC5fA2D5">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="urn:webprotege:ontology:5fc1ef09-3f44-4467-bbc3-990e97760f15#Parent"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBnvggHNtifttul9oo6vUS2"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBf8JReVfqPUlCGwFMaoUwx"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Divided_by_2</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:webprotege:ontology:5fc1ef09-3f44-4467-bbc3-990e97760f15#Parent -->
+
+    <owl:ObjectProperty rdf:about="urn:webprotege:ontology:5fc1ef09-3f44-4467-bbc3-990e97760f15#Parent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     </owl:ObjectProperty>
     
 
